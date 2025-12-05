@@ -5,9 +5,9 @@ NP = 20          # Popülasyon sayısı
 D = 2            # Değişken sayısı
 F = 0.6          # Mutasyon ölçekleme faktörü
 CR = 0.65        # Çaprazlama oranı
-Gmax = 15         # Maksimum iterasyon
-Lower = -5       # Alt sınır
-Upper = 5        # Üst sınır
+Gmax = 20         # Maksimum iterasyon
+Lower = -20       # Alt sınır
+Upper = 20        # Üst sınır
 
 
 # ------------------------------------------------------
