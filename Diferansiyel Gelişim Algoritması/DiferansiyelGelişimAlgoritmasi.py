@@ -64,7 +64,7 @@ def Crossover(population, mutants, CR):
 
 
 # ------------------------------------------------------
-#  Seleksiyon
+#  Seçim
 # ------------------------------------------------------
 def Selection(population, trial):
     NP = len(population)
