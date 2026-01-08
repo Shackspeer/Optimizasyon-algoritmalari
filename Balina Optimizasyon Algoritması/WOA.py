@@ -78,6 +78,17 @@ def Calc(T,t,D):
     return p,a,A,C,l
     
 
+#---------------------------------------------------
+# İTERASYON VE EN İYİ ÇÖZÜMÜN SEÇİLMESİ
+# --------------------
+# Tüm popülasyon için gerekli güncellemelerin 
+# geçerli iterason sayısına göre yapılması bu 
+# kısımda olur.
+#
+# maxGen maksimum iterasyon sayısını ve P çözüm boyutunu
+# ifade eder.
+#---------------------------------------------------   
+
 def Iteration(maxGen=30,P=2):
     population = CreatePopulation(NP=30,D=P)
     G_best = population[0].copy()
